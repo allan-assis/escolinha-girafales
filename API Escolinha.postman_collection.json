@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "b65480d3-d82a-41fc-88e3-2fe49bea9ed8",
+		"name": "API Escolinha",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38963088"
+	},
+	"item": [
+		{
+			"name": "Disponibilidade das Salas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/salas/horarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"salas",
+						"horarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Horas Livres dos Maestros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/maestros/horas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"maestros",
+						"horas"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
